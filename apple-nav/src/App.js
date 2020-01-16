@@ -1,15 +1,46 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import NavWrapper from './components/NavWrapper';
+import SubNav from './components/SubNav';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavWrapper />
-      </div>
-    </Router>
+    <div className="App">
+      <Route 
+        path='/'
+        component={NavWrapper} 
+      />
+      <Route 
+        path='/mac' 
+        component={SubNav} 
+      />
+      <Route 
+        path='/ipad' 
+        component={SubNav} 
+      />
+      <Route 
+        path='/iphone' 
+        component={SubNav} 
+      />
+      <Route 
+        path='/watch' 
+        component={SubNav} 
+      />
+      <Route 
+        path='/tv' 
+        component={SubNav} 
+      />
+      <Route 
+        path='/music' 
+        component={SubNav} 
+      />
+      <Route 
+        path='/support' 
+        component={SubNav} 
+      />
+
+    </div>
   );
 }
 
