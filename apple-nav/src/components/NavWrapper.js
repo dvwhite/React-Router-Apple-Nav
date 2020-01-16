@@ -14,25 +14,25 @@ const NavWrapper = () => {
         <NavLink to='/' className={'faAppleStyle'}>
           <FontAwesomeIcon icon={faApple} />
         </NavLink>
-        <NavLink exact to='/mac' className={'nav-link'}>
+        <NavLink exact to='/mac' className={'nav-link'} activeClassName={'active-nav-link'}>
           Mac
         </NavLink>
-        <NavLink exact to='/ipad' className={'nav-link'}>
+        <NavLink exact to='/ipad' className={'nav-link'} activeClassName={'active-nav-link'}>
           iPad
         </NavLink>
-        <NavLink exact to='/iphone' className={'nav-link'}>
+        <NavLink exact to='/iphone' className={'nav-link'} activeClassName={'active-nav-link'}>
           iPhone
         </NavLink>
-        <NavLink exact to='/watch' className={'nav-link'}>
+        <NavLink exact to='/watch' className={'nav-link'} activeClassName={'active-nav-link'}>
           Watch
         </NavLink>
-        <NavLink exact to='/tv' className={'nav-link'}>
+        <NavLink exact to='/tv' className={'nav-link'} activeClassName={'active-nav-link'}>
           TV
         </NavLink>
-        <NavLink exact to='/music' className={'nav-link'}>
+        <NavLink exact to='/music' className={'nav-link'} activeClassName={'active-nav-link'}>
           Music
         </NavLink>
-        <NavLink exact to='/support' className={'nav-link'}>
+        <NavLink exact to='/support' className={'nav-link'} activeClassName={'active-nav-link'}>
           Support
         </NavLink>
         <NavLink to='/us/search' className={'faIconStyle'}>
