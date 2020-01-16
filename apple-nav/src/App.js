@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Route } from 'react-router-dom';
 import NavWrapper from './components/NavWrapper';
 import SubNav from './components/SubNav';
@@ -39,7 +38,6 @@ function App() {
         path='/support' 
         component={SubNav} 
       />
-
     </div>
   );
 }
