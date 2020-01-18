@@ -1,18 +1,13 @@
 import React from 'react';
-import './../App.css';
+import './../App.scss';
 import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import { faApple } from '@fortawesome/free-brands-svg-icons';
-import { faClipboard } from '@fortawesome/free-regular-svg-icons';
-import { faIconStyle } from './../App.css';
 
 const NavWrapper = () => {
   return (
     <div className="nav-wrapper-flex">
       <div className='nav-wrapper'>
-        <NavLink to='/' className={'faAppleStyle'}>
-          <FontAwesomeIcon icon={faApple} />
+        <NavLink to='/' className='nav-svg'>
+          <img src={require('./../images/navicons/apple.svg')} alt="Apple"/>
         </NavLink>
         <NavLink exact to='/mac' className={'nav-link'} activeClassName={'active-nav-link'}>
           Mac
@@ -35,11 +30,9 @@ const NavWrapper = () => {
         <NavLink exact to='/support' className={'nav-link'} activeClassName={'active-nav-link'}>
           Support
         </NavLink>
-        <NavLink to='/us/search' className={'faIconStyle'}>
-          <FontAwesomeIcon icon={faSearch} />
-        </NavLink>
-        <NavLink to='/us/shop' className={'faIconStyle'}>
-          <FontAwesomeIcon icon={faClipboard} />
+        <NavLink to='/us/search' className={'nav-svg'}><i class='search-svg'></i></NavLink>
+        <NavLink to='/us/shop' className={'nav-svg'}>
+          <img src={require('./../images/navicons/bag.svg')} alt="Shopping bag"/>
         </NavLink>
       </div>
     </div>
