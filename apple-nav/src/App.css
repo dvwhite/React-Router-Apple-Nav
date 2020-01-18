@@ -11,25 +11,33 @@
   align-items: center;
   width: 70%;
   height: 2.75rem;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-tap-highlight-color: transparent;
 }
 
 .nav-link {
   font-size: 0.9rem;
   color: #c1c1c1;
   text-decoration: none;
+  letter-spacing: -0.01em;
+  opacity: 0.8;
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   transition: ease-in-out all .3s; 
   -moz-transition: ease-in-out all .3s;
   -webkit-transition: ease-in-out all .3s;
 }
 
 .faAppleStyle { 
-  color: #d6d6d6;
+  /* color: #d6d6d6; */
+  color: #f5f5f7;
   font-size: 2.2em;
   padding-bottom: 5px;
+
 }
 
 .faIconStyle { 
-  color: #d6d6d6;
+  color: #f5f5f7;
   font-size: 1.7em;
   padding-bottom: 5px;
 }
