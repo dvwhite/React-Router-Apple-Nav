@@ -15,7 +15,7 @@
     "src": "images/mac/macbook_pro_16.svg",
     "href": "macbook-pro-16",
     "urltext": "MacBook Pro 16\"",
-    "tag": "New!"
+    "tag": "New"
   },
   {
     "src": "images/mac/imac.svg",
@@ -33,7 +33,7 @@
     "src": "images/mac/mac_pro.svg",
     "href": "mac-pro",
     "urltext": "Mac Pro",
-    "tag": "New!"
+    "tag": "New"
   },
   {
     "src": "images/mac/macmini.svg",
@@ -51,7 +51,7 @@
     "src": "images/mac/pro_display_xdr.svg",
     "href": "pro-display-xdr",
     "urltext": "Pro Display XDR",
-    "tag": "New!"
+    "tag": "New"
   },
   {
     "src": "images/mac/mac_acc.svg",
