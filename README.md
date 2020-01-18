@@ -1,4 +1,7 @@
 # React Router Apple Nav - Stretch Assignment
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9ea0675-b920-4aa5-b4fe-e1ba861f8f78/deploy-status)](https://app.netlify.com/sites/apple-navbar-clone/deploys)
+
+The site has been deployed to Netlify at the following URL: (https://apple-navbar-clone.netlify.com/)
 
 - [ ] Lets build out a navigation app that mimics `Apple's Slick Navigation` from their marketing website. At this point you have all the knowledge you'll need to be able to complete this stretch assignment.
 
