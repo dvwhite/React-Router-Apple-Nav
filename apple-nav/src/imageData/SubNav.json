@@ -1,66 +1,66 @@
 {"mac": [
   {
-    "src": "/images/mac/macbookair.svg",
+    "src": "images/mac/macbookair.svg",
     "href": "macbook-air",
     "urltext": "MacBook Air",
     "tag": ""
   },
   {
-    "src": "/images/mac/macbook_pro_13.svg",
+    "src": "images/mac/macbook_pro_13.svg",
     "href": "macbook-pro-13",
     "urltext": "MacBook Pro 13\"",
     "tag": ""
   },
   {
-    "src": "/images/mac/macbook_pro_16.svg",
+    "src": "images/mac/macbook_pro_16.svg",
     "href": "macbook-pro-16",
     "urltext": "MacBook Pro 16\"",
     "tag": "New!"
   },
   {
-    "src": "/images/mac/imac.svg",
+    "src": "images/mac/imac.svg",
     "href": "imac",
     "urltext": "iMac",
     "tag": ""
   },
   {
-    "src": "/images/mac/imac_pro.svg",
+    "src": "images/mac/imac_pro.svg",
     "href": "imac-pro",
     "urltext": "iMac Pro",
     "tag": ""
   },
   {
-    "src": "/images/mac/mac_pro.svg",
+    "src": "images/mac/mac_pro.svg",
     "href": "mac-pro",
     "urltext": "Mac Pro",
     "tag": "New!"
   },
   {
-    "src": "/images/mac/macmini.svg",
+    "src": "images/mac/macmini.svg",
     "href": "mac-mini",
     "urltext": "Mac Mini",
     "tag": ""
   },
   {
-    "src": "/images/mac/mac_comp.svg",
+    "src": "images/mac/mac_comp.svg",
     "href": "/compare",
     "urltext": "Compare",
     "tag": ""
   },
   {
-    "src": "/images/mac/pro_display_xdr.svg",
+    "src": "images/mac/pro_display_xdr.svg",
     "href": "pro-display-xdr",
     "urltext": "Pro Display XDR",
     "tag": "New!"
   },
   {
-    "src": "/images/mac/mac_acc.svg",
+    "src": "images/mac/mac_acc.svg",
     "href": "us/shop/goto/mac/accessories",
-    "urltext": "",
+    "urltext": "Accessories",
     "tag": ""
   },
   {
-    "src": "/images/mac/mac_osx.svg",
+    "src": "images/mac/mac_osx.svg",
     "href": "macos/catalina/",
     "urltext": "Catalina",
     "tag": ""
