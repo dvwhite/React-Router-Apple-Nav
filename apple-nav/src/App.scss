@@ -1,0 +1,113 @@
+.nav-wrapper-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(50, 50, 51);
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 2.75rem;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-tap-highlight-color: transparent;
+
+  .nav-link {
+    font-size: 0.9rem;
+    color: #c1c1c1;
+    text-decoration: none;
+    letter-spacing: -0.01em;
+    text-shadow: 1px darkgray;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    transition: ease-in-out all .3s; 
+    -moz-transition: ease-in-out all .3s;
+    -webkit-transition: ease-in-out all .3s;
+  }
+
+  .nav-svg { 
+    display: flex;
+    align-items: center;
+    color: #f5f5f7;
+    font-size: 1.7em;
+    padding-bottom: 5px;
+    width: 18px;
+
+    .apple-svg { 
+      color: #f5f5f7;
+      font-size: 2.2em;
+      padding-bottom: 5px;
+    }
+
+    .search-svg {
+      height: 18px;
+      display: inline-block;
+      background-image: url(./images/navicons/search.svg);
+      background-repeat: no-repeat;
+      background-position: 0px 40px;
+    }
+  }
+
+  .nav-link:hover,
+  .faAppleStyle:hover,
+  .faIconStyle:hover {
+    color: #ffffff;
+    opacity: 0.9;
+    transition: ease-in-out all .3s; 
+    -moz-transition: ease-in-out all .3s;
+    -webkit-transition: ease-in-out all .3s;
+  }
+
+  .active-nav-link,
+  .active-nav-link:hover {
+    color: #888888;
+  }
+}
+
+.subnav-link-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(245,245,247,0.7);
+
+  .subnav-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    div {
+      img {
+        height: 54px;
+      }
+    }
+
+    div a {
+      text-decoration: none;
+      font-size: 0.9em;
+      color: #4D4D4F;
+      font-weight: bold;
+      white-space: nowrap;
+
+      &:hover {
+        color: #2B80D4;
+      }
+    }
+
+    .subnav-link {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0% 4%;
+      text-decoration: none;
+      text-align: center;
+      flex-wrap: nowrap;
+    }
+
+    .subnav-tag {
+      color: #D79166;
+      font-weight: bold;
+    }
+  }
+}
