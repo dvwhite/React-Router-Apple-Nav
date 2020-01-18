@@ -8,35 +8,35 @@ function App() {
     <div className="App">
       <Route 
         path='/'
-        component={NavWrapper} 
+        render={props => <NavWrapper {...props} />} 
       />
       <Route 
         path='/mac' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
       <Route 
         path='/ipad' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
       <Route 
         path='/iphone' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
       <Route 
         path='/watch' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
       <Route 
         path='/tv' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
       <Route 
         path='/music' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
       <Route 
         path='/support' 
-        component={SubNav} 
+        render={props => <SubNav {...props} />} 
       />
     </div>
   );

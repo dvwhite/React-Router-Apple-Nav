@@ -1,8 +1,16 @@
 import React from 'react';
+const json = require('./../imageData/SubNav.json');
 
-const SubNav = () => {
+const SubNav = (props) => {
+  const url = props.match.url;
+  const pageName = url.substring(1, url.length);
+  if (!json[pageName]) return <h2>Loading data...</h2>
   return (
-    <p>SubNav</p>
+    <div>
+      {
+        json[pageName].map(urlObj => urlObj.urltext)
+      }
+    </div>
   );
 }
 
