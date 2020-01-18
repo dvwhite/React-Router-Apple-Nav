@@ -13,7 +13,9 @@ const SubNav = (props) => {
           json[pageName].map(urlObj => 
             (
               <div className="subnav-link">
-                <div><img src={require('./../' + urlObj.src)} alt={urlObj.urltext} /></div>
+                <div>
+                  <img src={require('./../' + urlObj.src)} alt={urlObj.urltext} />
+                </div>
                 <a href={urlObj.href}>{urlObj.urltext}</a>
                 {urlObj.tag ? <div className="subnav-tag">{urlObj.tag}</div> : null}
               </div>
