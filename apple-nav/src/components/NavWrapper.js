@@ -30,9 +30,11 @@ const NavWrapper = () => {
         <NavLink exact to='/support' className={'nav-link'} activeClassName={'active-nav-link'}>
           Support
         </NavLink>
-        <NavLink to='/us/search' className={'nav-svg'}><i class='search-svg'></i></NavLink>
+        <NavLink to='/us/search' className={'nav-svg'}>
+          <img src={require('./../images/navicons/search_light.svg')} alt="Shopping bag"/>
+        </NavLink>
         <NavLink to='/us/shop' className={'nav-svg'}>
-          <img src={require('./../images/navicons/bag.svg')} alt="Shopping bag"/>
+          <img src={require('./../images/navicons/bag_light.svg')} alt="Shopping bag"/>
         </NavLink>
       </div>
     </div>
