@@ -9,8 +9,8 @@ import { faIconStyle } from './../App.css';
 
 const NavWrapper = () => {
   return (
-    <div class="nav-wrapper-flex">
-      <div class='nav-wrapper'>
+    <div className="nav-wrapper-flex">
+      <div className='nav-wrapper'>
         <NavLink to='/' className={'faAppleStyle'}>
           <FontAwesomeIcon icon={faApple} />
         </NavLink>
