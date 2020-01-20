@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(50, 50, 51);
+  // background-color: rgb(50, 50, 51);
 }
 
 .nav-wrapper {
@@ -17,7 +17,7 @@
 
   .nav-link {
     font-size: 0.9rem;
-    color: #c1c1c1;
+    // color: #c1c1c1;
     text-decoration: none;
     letter-spacing: -0.01em;
     text-shadow: 1px darkgray;
@@ -53,7 +53,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(245,245,247,0.7);
+  // background: rgba(245,245,247,0.7);
 
   .subnav-link-container {
     display: flex;
@@ -70,7 +70,7 @@
     div a {
       text-decoration: none;
       font-size: 1.2 em;
-      color: #4D4D4F;
+      // color: #4D4D4F;
       white-space: nowrap;
 
       &:hover {
@@ -89,7 +89,7 @@
     }
 
     .subnav-tag {
-      color: #D79166;
+      // color: #D79166;
       font-weight: bold;
     }
   }

@@ -1,23 +1,36 @@
 import React from 'react';
-const json = require('./../imageData/SubNav.json');
+import { Link } from 'react-router-dom';
+const json = require('./../imageData/SubNavData.json');
 
 const SubNav = (props) => {
+  // We grab the url from the route and use it as a key
+  // in the json of page data
   const url = props.match.url;
   const pageName = url.substring(1, url.length);
-  if (!json[pageName]) return <h2 className="subnav-link-wrapper">Loading data...</h2>
+  // The image src, image href, and link content data
+  const data = json[pageName].data;
+  // The styles for the subnav bg color, link color, tag color
+  const bgColor = json[pageName].subNavBackgroundColor;
+  const linkFontColor = json[pageName].linkFontColor;
+  const tagFontColor = json[pageName].tagFontColor;
+
+  // We return a tag if the page data hasn't loaded
+  if (!data) return <h2 className="subnav-link-wrapper">Loading data...</h2>
 
   return (
     <div className="subnav-link-wrapper">
       <div className = "subnav-link-container">
         {
-          json[pageName].map(urlObj => 
+          data.map(urlObj => 
             (
               <div className="subnav-link">
-                <div>
-                  <img src={require('./../' + urlObj.src)} alt={urlObj.urltext} />
-                </div>
-                <a href={urlObj.href}>{urlObj.urltext}</a>
-                {urlObj.tag ? <div className="subnav-tag">{urlObj.tag}</div> : null}
+                <Link to={urlObj.href}>
+                  <div>
+                    <img src={require('./../' + urlObj.src)} alt={urlObj.urltext} />
+                  </div>
+                  <p>{urlObj.urltext}</p>
+                  {urlObj.tag ? <p className="subnav-tag">{urlObj.tag}</p> : null}
+                </Link>
               </div>
             )
           )
