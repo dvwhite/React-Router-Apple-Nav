@@ -1,10 +1,17 @@
 import React from 'react';
 import './../App.scss';
 import { NavLink } from 'react-router-dom';
+const json = require('./../imageData/SubNavData.json');
 
-const NavWrapper = () => {
+const NavWrapper = (props) => {
+  // We grab the url from the route and use it as a key
+  const url = props.location.pathname;
+  const pageName = url.substring(1, url.length);
+  // The style for the main nav background color
+  const bgColor = json[pageName] ? json[pageName].navBackgroundColor : null;
+  
   return (
-    <div className="nav-wrapper-flex">
+    <div className="nav-wrapper-flex" >
       <div className='nav-wrapper'>
         <NavLink to='/' className='nav-svg'>
           <img src={require('./../images/navicons/apple.svg')} alt="Apple"/>

@@ -4,7 +4,6 @@ const json = require('./../imageData/SubNavData.json');
 
 const SubNav = (props) => {
   // We grab the url from the route and use it as a key
-  // in the json of page data
   const url = props.match.url;
   const pageName = url.substring(1, url.length);
   // The image src, image href, and link content data
@@ -24,10 +23,8 @@ const SubNav = (props) => {
           data.map(urlObj => 
             (
               <div className="subnav-link">
-                <Link to={urlObj.href}>
-                  <div>
-                    <img src={require('./../' + urlObj.src)} alt={urlObj.urltext} />
-                  </div>
+                <Link to={urlObj.href} className='subnav-link-anchor'>
+                  <img src={require('./../' + urlObj.src)} alt={urlObj.urltext} />
                   <p>{urlObj.urltext}</p>
                   {urlObj.tag ? <p className="subnav-tag">{urlObj.tag}</p> : null}
                 </Link>
