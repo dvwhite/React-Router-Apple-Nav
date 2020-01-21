@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import StyledSubNavWrapper from './StyledSubNavWrapper';
 const json = require('./../imageData/SubNavData.json');
 
 const SubNav = (props) => {
@@ -17,7 +18,7 @@ const SubNav = (props) => {
   if (!data) return <h2 className="subnav-link-wrapper">Loading data...</h2>
 
   return (
-    <div className="subnav-link-wrapper">
+    <StyledSubNavWrapper bgColor={bgColor}>
       <div className = "subnav-link-container">
         {
           data.map(urlObj => 
@@ -33,7 +34,7 @@ const SubNav = (props) => {
           )
         }
       </div>
-    </div>
+    </StyledSubNavWrapper>
   );
 }
 
