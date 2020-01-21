@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import StyledSubNavWrapper from './StyledSubNavWrapper';
+import StyledSubNavLink from './StyledSubNavLink';
 const json = require('./../imageData/SubNavData.json');
 
 const SubNav = (props) => {
@@ -24,11 +25,13 @@ const SubNav = (props) => {
           data.map(urlObj => 
             (
               <div className="subnav-link">
-                <Link to={urlObj.href} className='subnav-link-anchor'>
+                {/* <Link href={urlObj.href} linkFontColor={linkFontColor}> */}
+                {/* </Link> */}
+                <StyledSubNavLink href={urlObj.href} linkFontColor={linkFontColor}>
                   <img src={require('./../' + urlObj.src)} alt={urlObj.urltext} />
                   <p>{urlObj.urltext}</p>
                   {urlObj.tag ? <p className="subnav-tag">{urlObj.tag}</p> : null}
-                </Link>
+                </StyledSubNavLink>
               </div>
             )
           )

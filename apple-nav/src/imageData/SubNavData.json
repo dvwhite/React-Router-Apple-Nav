@@ -1,7 +1,7 @@
 {"mac": {
   "navBackgroundColor": "rgb(50, 50, 51)",
   "subNavBackgroundColor": "rgba(245,245,247,0.7)",
-  "linkFontColor": "#C1C1C1;",
+  "linkFontColor": "#4D4D4F",
   "tagFontColor": "#D79166",
   "data": [
     {
@@ -75,7 +75,7 @@
 "ipad": {
   "navBackgroundColor": "rgb(50, 50, 51)",
   "subNavBackgroundColor": "rgba(245,245,247,0.7)",
-  "linkFontColor": "#C1C1C1;",
+  "linkFontColor": "#4D4D4F;",
   "tagFontColor": "#D79166",
   "data": [
     {
