@@ -1,4 +1,11 @@
-{"mac": {
+{ "": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": []
+  },
+"mac": {
   "navBackgroundColor": "rgb(50, 50, 51)",
   "subNavBackgroundColor": "rgba(245,245,247,0.7)",
   "linkFontColor": "#4D4D4F",
@@ -75,7 +82,7 @@
 "ipad": {
   "navBackgroundColor": "rgb(50, 50, 51)",
   "subNavBackgroundColor": "rgba(245,245,247,0.7)",
-  "linkFontColor": "#4D4D4F;",
+  "linkFontColor": "#4D4D4F",
   "tagFontColor": "#D79166",
   "data": [
     {
