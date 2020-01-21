@@ -1,6 +1,7 @@
 import React from 'react';
 import './../App.scss';
 import { NavLink } from 'react-router-dom';
+import StyledNav from './StyledNav';
 const json = require('./../imageData/SubNavData.json');
 
 const NavWrapper = (props) => {
@@ -11,7 +12,7 @@ const NavWrapper = (props) => {
   const bgColor = json[pageName] ? json[pageName].navBackgroundColor : null;
   
   return (
-    <div className="nav-wrapper-flex" >
+    <StyledNav bgColor={bgColor}>
       <div className='nav-wrapper'>
         <NavLink to='/' className='nav-svg'>
           <img src={require('./../images/navicons/apple.svg')} alt="Apple"/>
@@ -44,7 +45,7 @@ const NavWrapper = (props) => {
           <img src={require('./../images/navicons/bag_light.svg')} alt="Shopping bag"/>
         </NavLink>
       </div>
-    </div>
+    </StyledNav>
   );
 };
 
