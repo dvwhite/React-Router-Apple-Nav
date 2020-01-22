@@ -15,7 +15,7 @@ const NavWrapper = (props) => {
     <StyledNav bgColor={bgColor}>
       <div className='nav-wrapper'>
         <NavLink to='/' className='nav-svg'>
-          <img src={require('./../images/navicons/apple.svg')} alt="Apple"/>
+          <img src={require('./../images/navicons/apple.svg')} alt='Apple'/>
         </NavLink>
         <NavLink exact to='/mac' className={'nav-link'} activeClassName={'active-nav-link'}>
           Mac
