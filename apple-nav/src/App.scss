@@ -1,0 +1,103 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+// .nav-wrapper-flex {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: rgb(50, 50, 51);
+// }
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 2.75rem;
+  transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-transition: opacity 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+  -webkit-tap-highlight-color: transparent;
+
+  .nav-link {
+    font-size: 0.9rem;
+    color: #c1c1c1;
+    text-decoration: none;
+    letter-spacing: -0.01em;
+    text-shadow: 1px darkgray;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    transition: ease-in-out all .3s; 
+    -moz-transition: ease-in-out all .3s;
+    -webkit-transition: ease-in-out all .3s;
+  }
+
+  .nav-svg { 
+    display: flex;
+    align-items: center;
+    width: 18px;
+  }
+
+  .nav-link:hover,
+  .faAppleStyle:hover,
+  .faIconStyle:hover {
+    color: #ffffff;
+    opacity: 0.9;
+    transition: ease-in-out all .3s; 
+    -moz-transition: ease-in-out all .3s;
+    -webkit-transition: ease-in-out all .3s;
+  }
+
+  .active-nav-link,
+  .active-nav-link:hover {
+    color: #888888;
+  }
+}
+
+// .subnav-link-wrapper {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   // background: rgba(245,245,247,0.7);
+// }
+
+.subnav-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  width: 100%;
+  padding: 0.5% 0;
+
+  img {
+    height: 54px;
+  }
+
+  .subnav-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0% 1.75%;
+    text-decoration: none;
+    text-align: center;
+    flex-wrap: nowrap;
+  }
+
+  .subnav-link-anchor {
+    text-decoration: none;
+    font-size: 1.2 em;
+    color: #4D4D4F;
+    white-space: nowrap;
+    margin: 2%;
+
+    &:hover {
+      color: #2B80D4;
+    }
+  }
+
+  .subnav-tag {
+    margin-top: 0;
+    color: #D79166;
+    font-weight: bold;
+
+  }
+}

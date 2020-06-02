@@ -1,0 +1,394 @@
+{ "": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": []
+  },
+"mac": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": [
+    {
+      "src": "images/mac/macbookair.svg",
+      "href": "macbook-air",
+      "urltext": "MacBook Air",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/macbook_pro_13.svg",
+      "href": "macbook-pro-13",
+      "urltext": "MacBook Pro 13\"",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/macbook_pro_16.svg",
+      "href": "macbook-pro-16",
+      "urltext": "MacBook Pro 16\"",
+      "tag": "New"
+    },
+    {
+      "src": "images/mac/imac.svg",
+      "href": "imac",
+      "urltext": "iMac",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/imac_pro.svg",
+      "href": "imac-pro",
+      "urltext": "iMac Pro",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/mac_pro.svg",
+      "href": "mac-pro",
+      "urltext": "Mac Pro",
+      "tag": "New"
+    },
+    {
+      "src": "images/mac/macmini.svg",
+      "href": "mac-mini",
+      "urltext": "Mac Mini",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/mac_comp.svg",
+      "href": "/compare",
+      "urltext": "Compare",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/pro_display_xdr.svg",
+      "href": "pro-display-xdr",
+      "urltext": "Pro Display XDR",
+      "tag": "New"
+    },
+    {
+      "src": "images/mac/mac_acc.svg",
+      "href": "us/shop/goto/mac/accessories",
+      "urltext": "Accessories",
+      "tag": ""
+    },
+    {
+      "src": "images/mac/mac_osx.svg",
+      "href": "macos/catalina/",
+      "urltext": "Catalina",
+      "tag": ""
+    }
+  ]
+},
+"ipad": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": [
+    {
+      "src": "images/ipad/ipadpro_light.svg",
+      "href": "ipad-pro/",
+      "urltext": "iPad Pro",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/ipadair_light.svg",
+      "href": "ipad-air/",
+      "urltext": "iPad Air",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/ipad_light.svg",
+      "href": "ipad-10.2/",
+      "urltext": "iPad",
+      "tag": "New"
+    },
+    {
+      "src": "images/ipad/ipadmini_light.svg",
+      "href": "ipad-mini/",
+      "urltext": "iPad mini",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/ipad_comp_light.svg",
+      "href": "ipad/compare",
+      "urltext": "Compare",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/apple_pencil_light.svg",
+      "href": "apple-pencil/",
+      "urltext": "Apple Pencil",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/keyboard_light.svg",
+      "href": "smart-keyboard/",
+      "urltext": "Smart Keyboard",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/airpods_light.svg",
+      "href": "airpods/",
+      "urltext": "AirPods",
+      "tag": "New"
+    },
+    {
+      "src": "images/ipad/ipad_acc_light.svg",
+      "href": "us/shop/goto/ipad/accessories",
+      "urltext": "Accessories",
+      "tag": ""
+    },
+    {
+      "src": "images/ipad/ipados_light.svg",
+      "href": "ipados/",
+      "urltext": "iPadOS",
+      "tag": ""
+    }
+  ]
+},
+"iphone": {
+  "navBackgroundColor": "#0A0A0A",
+  "subNavBackgroundColor": "#111113",
+  "linkFontColor": "#CECECE",
+  "tagFontColor": "#E15C02",
+  "data": [
+    {
+      "src": "images/iphone/iphone_11_pro_dark.svg",
+      "href": "iphone-11-pro/",
+      "urltext": "iPhone 11 Pro",
+      "tag": "New"
+    },
+    {
+      "src": "images/iphone/iphone_11_dark.svg",
+      "href": "iphone-11/",
+      "urltext": "iPhone 11",
+      "tag": "New"
+    },
+    {
+      "src": "images/iphone/iphone_xr_dark.svg",
+      "href": "us/shop/goto/buy_iphone/iphone_xr",
+      "urltext": "iPhone XR",
+      "tag": ""
+    },
+    {
+      "src": "images/iphone/iphone_8_dark.svg",
+      "href": "us/shop/goto/buy_iphone/iphone_8",
+      "urltext": "iPhone 8",
+      "tag": ""
+    },
+    {
+      "src": "images/iphone/iphone_comp_dark.svg",
+      "href": "iphone/compare/",
+      "urltext": "Compare",
+      "tag": ""
+    },
+    {
+      "src": "images/iphone/iphone_apple_card_dark.svg",
+      "href": "apple-card/",
+      "urltext": "Apple Card",
+      "tag": ""
+    },
+    {
+      "src": "images/iphone/iphone_airpods_dark.svg",
+      "href": "airpods/",
+      "urltext": "AirPods",
+      "tag": "New"
+    },
+    {
+      "src": "images/iphone/iphone_acc_dark.svg",
+      "href": "us/shop/goto/iphone/accessories",
+      "urltext": "Accessories",
+      "tag": ""
+    },
+    {
+      "src": "images/iphone/iphone_ios_dark.svg",
+      "href": "ios/ios-13/",
+      "urltext": "iOS 13",
+      "tag": ""
+    }
+  ]
+},
+"watch": {
+  "navBackgroundColor": "#333333",
+  "subNavBackgroundColor": "#FAFAFA",
+  "linkFontColor": "#111127",
+  "tagFontColor": "#F05602",
+  "data": [
+    {
+      "src": "images/iwatch/watch_nav_series_2.svg",
+      "href": "apple-watch-series-5/",
+      "urltext": "Apple Watch Series 5",
+      "tag": "New"
+    },
+    {
+      "src": "images/iwatch/watch_nav_nike.svg",
+      "href": "apple-watch-nike/",
+      "urltext": "Apple Watch Nike",
+      "tag": "New"
+    },
+    {
+      "src": "images/iwatch/watch_nav_hermes.svg",
+      "href": "apple-watch-hermes/",
+      "urltext": "Apple Watch Hermès",
+      "tag": "New"
+    },
+    {
+      "src": "images/iwatch/watch_nav_series_2.svg",
+      "href": "apple-watch-edition/",
+      "urltext": "Apple Watch Edition",
+      "tag": "New"
+    },
+    {
+      "src": "images/iwatch/watch_nav_series_3.svg",
+      "href": "apple-watch-series-3/",
+      "urltext": "Apple Watch Series 3",
+      "tag": ""
+    },
+    {
+      "src": "images/iwatch/watch_nav_compare.svg",
+      "href": "watch/compare/",
+      "urltext": "Compare",
+      "tag": ""
+    },
+    {
+      "src": "images/iwatch/watch_nav_bands.svg",
+      "href": "us/shop/goto/watch/bands",
+      "urltext": "Bands",
+      "tag": ""
+    },
+    {
+      "src": "images/iwatch/watch_nav_airpods.svg",
+      "href": "airpods/",
+      "urltext": "AirPods",
+      "tag": "New"
+    },
+    {
+      "src": "images/iwatch/watch_nav_accessories.svg",
+      "href": "us/shop/goto/watch/accessories",
+      "urltext": "Accessories",
+      "tag": ""
+    },
+    {
+      "src": "images/iwatch/watch_nav_watch_os.svg",
+      "href": "watchos/watchos-6/",
+      "urltext": "watchOS",
+      "tag": ""
+    }
+  ]
+},
+"tv": {
+  "navBackgroundColor": "#000000",
+  "subNavBackgroundColor": "#0E0E0E",
+  "linkFontColor": "#F5F5F7",
+  "tagFontColor": "#F56301",
+  "data": [
+    {
+      "src": "images/appletv/apple_tv_app_dark.svg",
+      "href": "apple-tv-app/",
+      "urltext": "Apple TV app",
+      "tag": "New"
+    },
+    {
+      "src": "images/appletv/apple_tv_plus_dark.svg",
+      "href": "apple-tv-plus/",
+      "urltext": "Apple TV+",
+      "tag": "New"
+    },
+    {
+      "src": "images/appletv/apple_tv_4K_dark.svg",
+      "href": "apple-tv-4k/",
+      "urltext": "Apple TV 4K",
+      "tag": ""
+    },
+    {
+      "src": "images/appletv/apple_tv_4K_dark.svg",
+      "href": "apple_tv_hd/select",
+      "urltext": "Apple TV HD",
+      "tag": ""
+    },
+    {
+      "src": "images/appletv/apple_tv_airplay_dark.svg",
+      "href": "airplay/",
+      "urltext": "AirPlay",
+      "tag": ""
+    },
+    {
+      "src": "images/appletv/apple_tv_accessories_dark.svg",
+      "href": "us/shop/goto/tv/tv_accessories",
+      "urltext": "Accessories",
+      "tag": ""
+    }
+  ]
+},
+"music": {
+  "navBackgroundColor": "#333333",
+  "subNavBackgroundColor": "linear-gradient(130deg, #f76c55 0%, #db57a2 50%, #be4fd5 100%)",
+  "linkFontColor": "#FFFFFF",
+  "tagFontColor": "#F3BECD",
+  "data": [
+    {
+      "src": "images/applemusic/apple_music_dark.svg",
+      "href": "apple-music/",
+      "urltext": "Apple Music",
+      "tag": ""
+    },
+    {
+      "src": "images/applemusic/airpods_pro_dark.svg",
+      "href": "airpods-pro/",
+      "urltext": "AirPods Pro",
+      "tag": "New"
+    },
+    {
+      "src": "images/applemusic/airpods_dark.svg",
+      "href": "airpods-2nd-generation/",
+      "urltext": "AirPods",
+      "tag": ""
+    },
+    {
+      "src": "images/applemusic/homepod_dark.svg",
+      "href": "homepod/",
+      "urltext": "HomePod",
+      "tag": ""
+    },
+    {
+      "src": "images/applemusic/ipod_touch_dark.svg",
+      "href": "ipod-touch/ipod_touch_dark.svg",
+      "urltext": "iPod touch",
+      "tag": ""
+    },
+    {
+      "src": "images/applemusic/apple_music_dark.svg",
+      "href": "audio_music",
+      "urltext": "Music Accessories",
+      "tag": ""
+    },
+    {
+      "src": "images/applemusic/gift_cards_dark.svg",
+      "href": "us/shop/goto/giftcards",
+      "urltext": "Gift Cards",
+      "tag": ""
+    }
+  ]
+},
+"support": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": []
+},
+"us/search": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": []
+},
+"us/shop": {
+  "navBackgroundColor": "rgb(50, 50, 51)",
+  "subNavBackgroundColor": "rgba(245,245,247,0.7)",
+  "linkFontColor": "#4D4D4F",
+  "tagFontColor": "#D79166",
+  "data": []
+}}
